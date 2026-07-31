@@ -38,45 +38,45 @@ st.title("Fake News Detection")
 st.write("Enter a news headline or article")
 
 
-# st.markdown("""
-#     <style>
-#     .stApp {
-#         background-color:#90ee60;
-#         color:blue;
-#     }
-#     </style>
+st.markdown("""
+    <style>
+    .stApp {
+        background-color:#90ee60;
+        color:blue;
+    }
+    </style>
 
-# """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 
-# st.markdown("""
-# <style>
-#     textarea{ 
-#             background-color:0white !important;
-#             color:green !important;
-#             font-family: 'Segoe UI', sans-serif !important;
-#             border:2px solid !important;
-#             border-radius:12px !important;
-#             padding:14px !important;
-#             font-size:px !important;
-#             transition:border-color 0.3s ease box-shadow 0.3s ease !important;
-#             resize: vertical !important;
-#             }
+st.markdown("""
+<style>
+    textarea{ 
+            background-color:0white !important;
+            color:green !important;
+            font-family: 'Segoe UI', sans-serif !important;
+            border:2px solid !important;
+            border-radius:12px !important;
+            padding:14px !important;
+            font-size:px !important;
+            transition:border-color 0.3s ease box-shadow 0.3s ease !important;
+            resize: vertical !important;
+            }
 
-#     textarea:focus {
-#     border-color: #cba6f7 !important;
-#     box-shadow: 0 4px 20px rgba(203, 166, 247, 0.4) !important;
-#     outline: none !important;
-# }
-#      textarea::placeholder {
-#     color: #6c7086 !important;
-#     font-style: italic;
-# }
-#     .stTextArea label {
-#     color: Red !important;
-# }
-#        </style>
-# """,unsafe_allow_html=True)
+    textarea:focus {
+    border-color: #cba6f7 !important;
+    box-shadow: 0 4px 20px rgba(203, 166, 247, 0.4) !important;
+    outline: none !important;
+}
+     textarea::placeholder {
+    color: #6c7086 !important;
+    font-style: italic;
+}
+    .stTextArea label {
+    color: Red !important;
+}
+       </style>
+""",unsafe_allow_html=True)
 
 # Text area
 news = st.text_area(label="Headline||News article", placeholder="Type something beautiful...")
@@ -147,5 +147,3 @@ if st.button("🔍 Predict"):
 
             st.write(f"Confidence Score: {confidence:.2f}%")
 
-        # with st.expander("View Cleaned Text"):
-        #     st.write(cleaned_news)
