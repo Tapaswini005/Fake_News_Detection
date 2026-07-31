@@ -27,7 +27,7 @@ https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 Hosted Application Link:
 
 ```text
-Add Your Hosted Link Here
+https://fakenewsdetection-anuj.streamlit.app/
 ```
 
 ---
@@ -40,16 +40,6 @@ Add Your Hosted Link Here
 
 ```text
 screenshots/homepage.png
-```
-
----
-
-## Prediction Result
-
-> Add screenshot here after deployment
-
-```text
-screenshots/prediction.png
 ```
 
 ---
@@ -284,7 +274,7 @@ streamlit
 ```text
 MIT License
 
-Copyright (c) 2026 Anuj Wagmore & Tapaswini Shaw
+Copyright (c) 2026 Tapaswini Shaw
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
